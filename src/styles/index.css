@@ -1,7 +1,13 @@
+/* index.css */
+
+html, body {
+  margin: 0; /* Eliminar márgenes del cuerpo */
+  height: 100%;
+}
 
 section {
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* Asegura que cubra toda la altura del viewport */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -13,6 +19,7 @@ body {
   font-family: monospace, sans-serif;
   color: whitesmoke;
   text-align: center;
+  background: black; /* Opcional: fondo de reserva si la imagen no carga */
 }
 
 .player-container {
@@ -35,7 +42,6 @@ body {
   cursor: pointer;
   border-bottom: 1px solid lightgray;
   text-align: justify;
-
 }
 
 .track-list li.current {

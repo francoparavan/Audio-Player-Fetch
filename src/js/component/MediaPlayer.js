@@ -1,3 +1,4 @@
+// MediaPlayer.js
 import React, { useState, useRef, useEffect } from "react";
 
 const MediaPlayer = () => {
@@ -90,8 +91,8 @@ const MediaPlayer = () => {
               audioElement.current.play();
               setIsPlaying(true);
             }}
-            onMouseEnter={(e) => e.currentTarget.classList.add('hover')}
-            onMouseLeave={(e) => e.currentTarget.classList.remove('hover')}
+            onMouseEnter={(e) => e.currentTarget.classList.add("hover")}
+            onMouseLeave={(e) => e.currentTarget.classList.remove("hover")}
           >
             {index + 1}. {track.name}{" "}
             <span className="duration">
