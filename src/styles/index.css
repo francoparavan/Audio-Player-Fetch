@@ -1,13 +1,11 @@
-/* index.css */
-
 html, body {
-  margin: 0; /* Eliminar márgenes del cuerpo */
+  margin: 0; 
   height: 100%;
 }
 
 section {
   width: 100%;
-  height: 100vh; /* Asegura que cubra toda la altura del viewport */
+  height: 100vh; 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -19,7 +17,7 @@ body {
   font-family: monospace, sans-serif;
   color: whitesmoke;
   text-align: center;
-  background: black; /* Opcional: fondo de reserva si la imagen no carga */
+  background: black; 
 }
 
 .player-container {
